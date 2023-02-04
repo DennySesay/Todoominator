@@ -37,10 +37,12 @@ public class Application {
                 }
                 case "todos" -> {
                     todos.removeTodo(count - 1);
+                    count--;
                     System.out.println(todos);
                 }
                 case "help" -> {
                     todos.removeTodo(count - 1);
+                    count--;
                     System.out.println("\"stop\" = Stops the Application\n\"todos\" = List of Todos");
                 }
             }

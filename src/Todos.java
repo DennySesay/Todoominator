@@ -15,6 +15,11 @@ public class Todos {
         todos.remove(key);
     }
 
+    int len() {
+        return todos.size();
+    }
+
+
     @Override
     public String toString() {
         return todos.toString();
