@@ -29,6 +29,7 @@ public class Application {
             count++;
             todos.setTodos(Todos);
 
+            // TODO: make the key/index increment logically
             switch (todoInput) {
                 case "stop" -> {
                     System.out.println(todos);
